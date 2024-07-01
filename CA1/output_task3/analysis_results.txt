@@ -1,0 +1,10 @@
+Header bytes of the bit stream:
+89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 38 00 00 04 38 08 02 00 00 00 63 72 FB D8 00 00 00 20 63 48 52 4D 00 00 7A 26 00 00 80 84 00 00 FA 00 00 00 80 E8 00 00 75 30 00 00 EA 60 00 00 3A 98 00 00 17 70 9C BA 51 3C 00 00 00 06 62 4B 47 44 00 FF 00 FF 00 FF A0 BD A7 93 00 00 00 07 74
+Image Format: PNG
+Resolution: (1080, 1080)
+File Size: 1230655 bytes
+Original Size: 3499200 bytes
+Compressed: Yes
+Compression Ratio: 0.3517
+Compression Algorithm: DEFLATE (LZ77-based)
+Compression Type: Lossless
