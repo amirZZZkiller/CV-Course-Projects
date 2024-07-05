@@ -59,7 +59,7 @@ for s, p in zip(decoded_info, points):
     img = cv2.putText(img, s, p[0].astype(int),
                       cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
 
-cv2.imwrite('data/dst/qrcode_opencv.jpg', img)
+cv2.imwrite('qrcode_result.jpg', img)
 
 import cv2
 
