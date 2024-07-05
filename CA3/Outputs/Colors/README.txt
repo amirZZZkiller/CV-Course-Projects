@@ -1,0 +1,7 @@
+### How to Use and Run the Project Files and Codes
+
+To run the color detection project, execute the `ColorRecognizer.py` script. This script requires OpenCV and pandas libraries, which can be installed using `pip install opencv-python pandas`. Place your target image file, named `colorsimage.jpg`, in the same directory as the script, and ensure you have the `colors.csv` file containing color data. The script opens a window displaying the image, and you can double-click on any point in the image to detect the color. The detected color name along with its RGB values will be displayed on the image itself. To exit the program, press the 'Esc' key.
+
+### Explanation of the Algorithms Used
+
+The color detection project uses a color recognition algorithm to identify the closest color name from a predefined list based on the RGB values of the pixel you double-click. When you double-click on a point in the image, the `mouse_click` function captures the RGB values at that point. The `recognize_color` function then calculates the distance between these RGB values and the RGB values in the `colors.csv` file, which contains color names and their corresponding RGB values. The algorithm finds the color with the smallest distance to the detected RGB values, identifying it as the closest match. The recognized color name, along with the RGB values, is displayed on the image. This combination of mouse event handling and color distance calculation allows for effective color recognition and display.
